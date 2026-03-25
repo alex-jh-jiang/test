@@ -1,6 +1,6 @@
 {
   "scriptName": "tran_cdm_dim_cstm_dmns_h.sql",
-  "exportedAt": "2026-03-25T11:14:40.694Z",
+  "exportedAt": "2026-03-25T14:05:18.590Z",
   "mode": "edit",
   "jobInfo": {
     "targetSchema": "CDM",
@@ -110,7 +110,7 @@
     ]
   },
   "jobLineageInfo": {
-    "objectId": "file_1774437279583846",
+    "objectId": "file_1774447517463100",
     "sheetName": "字段级有效血缘",
     "headers": [
       "模式名",
