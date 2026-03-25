@@ -1,0 +1,228 @@
+{
+  "scriptName": "tran_cdm_dim_cstm_dmns_h.sql",
+  "exportedAt": "2026-03-25T11:14:40.694Z",
+  "mode": "edit",
+  "jobInfo": {
+    "targetSchema": "CDM",
+    "targetTable": "DIM_CSTM_DMNS_H",
+    "jobDef": {
+      "attention_type": "",
+      "comments": "<TB>CDM.DIM_CSTM_DMNS_H</TB>",
+      "curr_bath_date": "Fri, 03 Mar 2023 00:00:00 GMT",
+      "curr_end_time": "Thu, 31 Dec 2037 00:00:00 GMT",
+      "curr_st_time": "Thu, 18 Oct 2018 15:53:18 GMT",
+      "disp_freq": "D",
+      "disp_offset": 3,
+      "disp_time": "NULL",
+      "disp_type": "D",
+      "etl_job": "FGEDW_TRAN_CDM_DIM_CSTM_DMNS_H",
+      "etl_job_desc": " - 何东美 202603011",
+      "etl_sys_cd": "FGEDW",
+      "is_enable": "",
+      "job_disp_status": "P",
+      "job_eff_flag": "Y",
+      "job_priority": 89,
+      "job_priority_curr": 0,
+      "job_process_id": 5,
+      "job_return_val": 0,
+      "log_dic": "!{LOG}@${txdate}@!{XX}",
+      "main_serv_sync": "Y",
+      "monitor_time": "",
+      "monitor_type": "",
+      "overlength_val": 5,
+      "overtime_val": "Fri, 11 Jun 2021 18:00:00 GMT",
+      "pro_dic": "!{ETLBIN}",
+      "pro_name": "fgedw_execute_sql.pl",
+      "pro_para": "tran_cdm_dim_cstm_dmns_h.sql@${txdate}",
+      "pro_type": "PERL",
+      "sub_sys_cd": "CDM",
+      "today_disp": "Y",
+      "upd_time": "",
+      "proType": "PERL",
+      "proDic": "!{ETLBIN}",
+      "proName": "fgedw_execute_sql.pl",
+      "batch_type": "0",
+      "execute_type": "nature",
+      "execute_days": "",
+      "is_common_script": true,
+      "batchType": "0",
+      "executeType": "nature",
+      "executeDays": "",
+      "isCommonScript": true,
+      "__originalEditable": {
+        "etl_job_desc": " - 何东美 202603011",
+        "pro_type": "PERL",
+        "pro_dic": "!{ETLBIN}",
+        "pro_name": "fgedw_execute_sql.pl",
+        "is_common_script": "Y",
+        "batch_type": "0",
+        "execute_type": "nature",
+        "execute_days": "",
+        "disp_freq": "D",
+        "disp_offset": 3,
+        "disp_type": "D",
+        "disp_time": "NULL",
+        "job_eff_flag": "Y",
+        "job_priority": 89,
+        "today_disp": "Y"
+      },
+      "__override_fields": [
+        "etl_job_desc"
+      ]
+    }
+  },
+  "jobDependencyInfo": {
+    "jobName": "FGEDW_TRAN_CDM_DIM_CSTM_DMNS_H",
+    "count": 4,
+    "items": [
+      {
+        "etl_job": "FGEDW_TRAN_CDM_DIM_CSTM_DMNS_H",
+        "etl_sys_cd": "FGEDW",
+        "pre_etl_job": "FGEDW_LOAD_S054_ECIF_ITS_CLIENT_MF",
+        "pre_etl_sys_cd": "FGEDW",
+        "status": "T",
+        "version_name": "FGEDW-20260101-alpha"
+      },
+      {
+        "etl_job": "FGEDW_TRAN_CDM_DIM_CSTM_DMNS_H",
+        "etl_sys_cd": "FGEDW",
+        "pre_etl_job": "FGEDW_LOAD_S054_ECIF_TACCOBENEFICIARY_MF",
+        "pre_etl_sys_cd": "FGEDW",
+        "status": "T",
+        "version_name": "FGEDW-20260101-alpha"
+      },
+      {
+        "etl_job": "FGEDW_TRAN_CDM_DIM_CSTM_DMNS_H",
+        "etl_sys_cd": "FGEDW",
+        "pre_etl_job": "FGEDW_LOAD_S054_ECIF_TCUSTMERGEINFO_MF",
+        "pre_etl_sys_cd": "FGEDW",
+        "status": "T",
+        "version_name": "FGEDW-20260101-alpha"
+      },
+      {
+        "etl_job": "FGEDW_TRAN_CDM_DIM_CSTM_DMNS_H",
+        "etl_sys_cd": "FGEDW",
+        "pre_etl_job": "FGEDW_LOAD_S054_ECIF_DS_CUSTNO2CUSTID_MF",
+        "pre_etl_sys_cd": "FGEDW",
+        "status": "D",
+        "version_name": "FGEDW-20260101-alpha"
+      }
+    ]
+  },
+  "jobLineageInfo": {
+    "objectId": "file_1774437279583846",
+    "sheetName": "字段级有效血缘",
+    "headers": [
+      "模式名",
+      "对象名",
+      "字段名",
+      "字段常量值"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_EXTN_CNTR_ADMN_RGN_DMNS",
+          "",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_EXTN_CNTR_ADMN_RGN_DMNS",
+          "",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "PARA_STND_CD_MPPN",
+          "",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTINFO_MF",
+          "",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTRISKINFO_MF",
+          "",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_THCUSTRISKINFO_MF",
+          "",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S033_FCUPADM_PICTURE_RECORG_INFO_MF",
+          "",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_TORGANIZATION_MF",
+          "",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWORGCUST_F",
+          "",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+}
