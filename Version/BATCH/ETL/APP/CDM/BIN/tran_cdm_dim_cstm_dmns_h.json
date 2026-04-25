@@ -1,6 +1,6 @@
 {
   "scriptName": "tran_cdm_dim_cstm_dmns_h.sql",
-  "exportedAt": "2026-04-21T08:29:48.461Z",
+  "exportedAt": "2026-04-25T23:53:33.587Z",
   "mode": "add",
   "jobInfo": {
     "developer": "jiangjunhua",
@@ -32,8 +32,8 @@
     "items": []
   },
   "jobLineageInfo": {
-    "objectId": "file_1776760187974263",
-    "sheetName": "字段级有效血缘",
+    "objectId": "file_1777161208009848",
+    "sheetName": "数据关系 + 常量分析",
     "headers": [
       "模式名",
       "对象名",
@@ -45,7 +45,7 @@
         "cells": [
           "CDM",
           "DIM_CSTM_DMNS_H",
-          "",
+          "ADMN_RGN_SRRG_KEY",
           ""
         ]
       },
@@ -53,7 +53,615 @@
         "cells": [
           "CDM",
           "DIM_CSTM_DMNS_H",
-          "",
+          "AFTR_MRG_CSTM_ID",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "BRTH",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CRR",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CRR_CD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_18_ID_CRD_NMBR",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_ABBR",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_ADDR_CNTR",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_ADDR_CTY",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_ADDR_DSTR",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_ADDR_DTLD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_ADDR_PROV",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_CRTF_AVLB_PRD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_CRTF_NMBR",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_CRTF_TYP",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_CRTF_TYP_CD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_EFFC_FLG",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_EFFC_FLG_CD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_ENG_FMLY_NM",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_ENG_NM",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_FLL_NM",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_ID",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_RSK_CLSS",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_RSK_CLSS_CD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_SRRG_KEY",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_STT",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_STT_CD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_TYP",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_TYP_CD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_YR_INCM",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "CSTM_ZIP",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "DPLM",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "DPLM_CD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "EML",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "END_DT",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "END_DT",
+          "YYYYMMDD"
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ENTR_WX_ADD_STT",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ENTR_WX_ADD_STT_CD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ETL_BTCH_DT",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ETL_JOB_NM",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ETL_LD_TM",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ETL_MD5",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ETL_SRC_TBL_NM",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "FAX",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "FMLY_ASST",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "FMLY_NMBR_OF_PPL",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "GNDR",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "GNDR_CD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "IF_ACCP_MKT_ADVR",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "IF_BLCK_CSTM",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "IF_RSK_ASSS_EFFC",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "IF_UPLD_ID_PHT",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "MRTL_STTS",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "MRTL_STTS_CD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "OFFC_PHN",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "OFFL_ACTV_STTS",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ORGN_EMPL_NMBR_OF_PPL",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ORGN_ESTB_TM",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ORGN_INDS",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ORGN_INDS_CD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ORGN_LGL_ENTT_AVLB_PRD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ORGN_LGL_ENTT_CRTF_NMBR",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ORGN_LGL_ENTT_NM",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ORGN_MNGM_RNG",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ORGN_ORGN_ID",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ORGN_RGST_CPTL",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ORGN_TYP",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "ORGN_TYP_CD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "PHN",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "RSK_ASSS_CLSS",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "RSK_ASSS_CLSS_CD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "SPPR_ID_CRTF_FL_AVLB_PRD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "SPPR_ID_CRTF_FL_NMBR",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "SPPR_ID_CRTF_FL_TYP",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "SPPR_ID_CRTF_FL_TYP_CD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "STRT_DT",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "TLPH",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_CSTM_DMNS_H",
+          "WRK_INST",
           ""
         ]
       },
@@ -61,7 +669,7 @@
         "cells": [
           "CDM",
           "DIM_EXTN_CNTR_ADMN_RGN_DMNS",
-          "",
+          "ADMN_RGN_ATTR_ID",
           ""
         ]
       },
@@ -69,7 +677,39 @@
         "cells": [
           "CDM",
           "DIM_EXTN_CNTR_ADMN_RGN_DMNS",
-          "",
+          "ADMN_RGN_ATTR_ID",
+          "cntrnm_en2"
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_EXTN_CNTR_ADMN_RGN_DMNS",
+          "ADMN_RGN_ATTR_ID",
+          "cntrnm_en3"
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_EXTN_CNTR_ADMN_RGN_DMNS",
+          "ADMN_RGN_ATTR_ID",
+          "cntrnm_nmbr3"
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_EXTN_CNTR_ADMN_RGN_DMNS",
+          "ADMN_RGN_ATTR_KEY",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "DIM_EXTN_CNTR_ADMN_RGN_DMNS",
+          "ADMN_RGN_SRRG_KEY",
           ""
         ]
       },
@@ -77,7 +717,47 @@
         "cells": [
           "CDM",
           "PARA_STND_CD_MPPN",
-          "",
+          "STND_CD_MPPN_SRRG_PRMR_KEY",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "PARA_STND_CD_MPPN",
+          "TRGT_ENMR_CD",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "PARA_STND_CD_MPPN",
+          "TRGT_ENMR_CD",
+          "0"
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "PARA_STND_CD_MPPN",
+          "TRGT_ENMR_CD",
+          "1"
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "PARA_STND_CD_MPPN",
+          "TRGT_ENMR_CD",
+          "1+0"
+        ]
+      },
+      {
+        "cells": [
+          "CDM",
+          "PARA_STND_CD_MPPN",
+          "TRGT_ENMR_NM",
           ""
         ]
       },
@@ -85,7 +765,95 @@
         "cells": [
           "DL_ODS",
           "S010_HSSALE30_TCUSTINFO_MF",
-          "",
+          "C_CUSTTYPE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTINFO_MF",
+          "C_CUSTTYPE",
+          "1"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTINFO_MF",
+          "C_IDENTITYTYPE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTINFO_MF",
+          "C_IDENTITYTYPE",
+          "1"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTINFO_MF",
+          "PT",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTINFO_MF",
+          "VC_CUSTNO",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTINFO_MF",
+          "VC_CUSTOMNAME",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTINFO_MF",
+          "VC_CUSTOMNAME",
+          "1"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTINFO_MF",
+          "VC_IDENTITYNO",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTINFO_MF",
+          "VC_IDENTITYNO",
+          "1"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTINFO_MF",
+          "VC_IDENTITYNO",
+          "15"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTRISKINFO_MF",
+          "C_CUSTRISKTYPE",
           ""
         ]
       },
@@ -93,7 +861,111 @@
         "cells": [
           "DL_ODS",
           "S010_HSSALE30_TCUSTRISKINFO_MF",
-          "",
+          "C_CUSTTYPE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTRISKINFO_MF",
+          "C_CUSTTYPE",
+          "1"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTRISKINFO_MF",
+          "C_IDENTITYTYPE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTRISKINFO_MF",
+          "C_IDENTITYTYPE",
+          "1"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTRISKINFO_MF",
+          "PT",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTRISKINFO_MF",
+          "VC_CUSTNO",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTRISKINFO_MF",
+          "VC_CUSTOMNAME",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTRISKINFO_MF",
+          "VC_CUSTOMNAME",
+          "1"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTRISKINFO_MF",
+          "VC_IDENTITYNO",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTRISKINFO_MF",
+          "VC_IDENTITYNO",
+          "1"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTRISKINFO_MF",
+          "VC_IDENTITYNO",
+          "15"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTRISKINFO_MF",
+          "VC_REPLYDATE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_TCUSTRISKINFO_MF",
+          "VC_REPLYDATE",
+          "1"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_THCUSTRISKINFO_MF",
+          "C_CUSTRISKTYPE",
           ""
         ]
       },
@@ -101,7 +973,63 @@
         "cells": [
           "DL_ODS",
           "S010_HSSALE30_THCUSTRISKINFO_MF",
-          "",
+          "PT",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_THCUSTRISKINFO_MF",
+          "VC_CUSTNO",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_THCUSTRISKINFO_MF",
+          "VC_CUSTNO",
+          "1"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_THCUSTRISKINFO_MF",
+          "VC_QUESTIONNAIRENO",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_THCUSTRISKINFO_MF",
+          "VC_QUESTIONNAIRENO",
+          "1"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_THCUSTRISKINFO_MF",
+          "VC_REPLYDATE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S010_HSSALE30_THCUSTRISKINFO_MF",
+          "VC_REPLYDATE",
+          "1"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S033_FCUPADM_PICTURE_RECORG_INFO_MF",
+          "CERT_NO",
           ""
         ]
       },
@@ -109,7 +1037,31 @@
         "cells": [
           "DL_ODS",
           "S033_FCUPADM_PICTURE_RECORG_INFO_MF",
-          "",
+          "CERT_NO",
+          "15"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S033_FCUPADM_PICTURE_RECORG_INFO_MF",
+          "CERT_TYPE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S033_FCUPADM_PICTURE_RECORG_INFO_MF",
+          "CUST_NAME",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S033_FCUPADM_PICTURE_RECORG_INFO_MF",
+          "PT",
           ""
         ]
       },
@@ -117,7 +1069,23 @@
         "cells": [
           "DL_ODS",
           "S054_ECIF_TORGANIZATION_MF",
-          "",
+          "CUSTID",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_TORGANIZATION_MF",
+          "ESTIBLISHDATE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_TORGANIZATION_MF",
+          "PT",
           ""
         ]
       },
@@ -125,7 +1093,191 @@
         "cells": [
           "DL_ODS",
           "S054_ECIF_VWCUST_F",
-          "",
+          "ADDRESS",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "AUXCERTCODE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "AUXCERTTYPE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "AUXVALIDDATE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "CERTCODE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "CERTCODE",
+          "15"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "CERTCODE",
+          "18"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "CERTTYPE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "CITY",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "COUNTRY",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "COUNTY",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "CUSTID",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "CUSTNAME",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "CUSTSIMPLENAME",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "CUSTSTATUS",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "CUSTTYPE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "CUSTTYPE",
+          "0"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "CUSTTYPE",
+          "1"
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "IDNOVALIDDATE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "PID",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "POSTCODE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "PROVINCE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "RISKLEVEL",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWCUST_F",
+          "VALIDATED",
           ""
         ]
       },
@@ -133,7 +1285,103 @@
         "cells": [
           "DL_ODS",
           "S054_ECIF_VWORGCUST_F",
-          "",
+          "CUSTID",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWORGCUST_F",
+          "EMAIL",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWORGCUST_F",
+          "FAX",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWORGCUST_F",
+          "INSTITUTIONTYPE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWORGCUST_F",
+          "INSTREPRCERTVALIDDATE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWORGCUST_F",
+          "INSTREPRIDCODE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWORGCUST_F",
+          "INSTREPRNAME",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWORGCUST_F",
+          "MANAGERANGE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWORGCUST_F",
+          "ORGNO",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWORGCUST_F",
+          "PHONE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWORGCUST_F",
+          "REGCAPITAL",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWORGCUST_F",
+          "STUFFNUM",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWORGCUST_F",
+          "VOCATION",
           ""
         ]
       },
@@ -141,8 +1389,232 @@
         "cells": [
           "DL_ODS",
           "S054_ECIF_VWPERSONCUST_F",
-          "",
+          "ANNUALINCOME",
           ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "BIRTHDAY",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "CUSTID",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "EDUCATIONLEVEL",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "EMAIL",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "ENFAMLIYNAME",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "ENFIRSTNAME",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "FAMILYNUM",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "FAX",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "MARRIAGESTATUS",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "MOBILEPHONE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "NATIONALITY",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "OFFICEPHONE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "PENATES",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "PHONE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "SEX",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "VOCATION",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPERSONCUST_F",
+          "WORKPLACE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPRODUCTCUST_F",
+          "CUSTID",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S054_ECIF_VWPRODUCTCUST_F",
+          "INSTITUTIONTYPE",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S060_DSC_DATA_T_STAT_KH_KHTZ_MF",
+          "HDHMDKH",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S060_DSC_DATA_T_STAT_KH_KHTZ_MF",
+          "KHH",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S060_DSC_DATA_T_STAT_KH_KHTZ_MF",
+          "PT",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S060_DSC_DATA_T_STAT_KH_KHTZ_MF",
+          "QYWXZT",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S060_DSC_DATA_T_STAT_KH_KHTZ_MF",
+          "XXHDKH",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S060_JJCRM_TJJ_KHYXXX_MF",
+          "KHH",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S060_JJCRM_TJJ_KHYXXX_MF",
+          "PT",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S060_JJCRM_TJJ_KHYXXX_MF",
+          "YXBZ",
+          ""
+        ]
+      },
+      {
+        "cells": [
+          "DL_ODS",
+          "S060_JJCRM_TJJ_KHYXXX_MF",
+          "YXBZ",
+          "1"
         ]
       }
     ]
